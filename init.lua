@@ -12,7 +12,7 @@ cmp.setup {
     expand = function(args)
       luasnip.lsp_expand(args.body)
     end,
-  },
+  }, 
   mapping = cmp.mapping.preset.insert {
     ['<C-d>'] = cmp.mapping.scroll_docs(-4),
     ['<C-f>'] = cmp.mapping.scroll_docs(4),
@@ -84,4 +84,5 @@ wk.add({
     { "<leader>cc", ":ChatGPT<CR>", desc = "ChatGPT" },
     { "<leader>ce", ":ChatGPTEditWithInstructions<CR>", desc = "ChatGPT Edit Selection with Instructions" },
     { "<leader>n", group = "Neorg" },
+    { "<leader>nt", ":Neorg journal today<CR>", desc = "Today" },
 })
