@@ -75,3 +75,7 @@ o.shiftwidth = 4
 o.tabstop = 4
 o.ai = true
 o.si = true
+
+vim.g.mapleader = ","
+vim.api.nvim_set_keymap('n','<Leader>cc', ':ChatGPT<CR>', { noremap = true, silent = true })
+vim.api.nvim_set_keymap('n','<Leader>ce', ':ChatGPTEditWithInstructions<CR>', { noremap = true, silent = true })
