@@ -76,6 +76,12 @@ o.tabstop = 4
 o.ai = true
 o.si = true
 
-vim.g.mapleader = ","
-vim.api.nvim_set_keymap('n','<Leader>cc', ':ChatGPT<CR>', { noremap = true, silent = true })
-vim.api.nvim_set_keymap('n','<Leader>ce', ':ChatGPTEditWithInstructions<CR>', { noremap = true, silent = true })
+-- Key mappings
+local wk = require('which-key')
+wk.add({
+    { "<leader>q", ":new ~/.nvim/init.lua<CR>", desc = "Edit neovim configuration" },
+    { "<leader>c", group = "ChatGPT" },
+    { "<leader>cc", ":ChatGPT<CR>", desc = "ChatGPT" },
+    { "<leader>ce", ":ChatGPTEditWithInstructions<CR>", desc = "ChatGPT Edit Selection with Instructions" },
+    { "<leader>n", group = "Neorg" },
+})
