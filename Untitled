@@ -1,0 +1,22 @@
+I'm learning NEOVIM and by keeping it in git means I can sync the config between my Linux Hosts
+
+Current goals
+
+- Get Neorg setup for my notes
+- Get cmp setup with auto complete in code
+- Probably integrate chatgpt or something to avoid the copy and paste
+
+
+## LazyVIM
+
+### Leaders (SPACE)
+SPACE - File picker
+u - UI Enable/Disable stuff 
+][b - Switch Buffer (Tabs)
+
+### Keymaps
+Open the keymap.lua file, and add entries there
+
+
+
+
