@@ -54,6 +54,12 @@ return {
             },
           },
         },
+        ["core.keybinds"] = {
+          config = {
+            default_keybinds = true,
+            neorg_leader = "<Leader>n", -- Change this to whatever you want
+          },
+        },
       },
     })
   end,

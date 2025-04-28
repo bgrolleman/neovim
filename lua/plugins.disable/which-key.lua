@@ -8,11 +8,11 @@ return {
   },
   keys = {
     {
-      "<leader>?",
-      function()
-        require("which-key").show({ global = false })
-      end,
-      desc = "Buffer Local Keymaps (which-key)",
+      { "<leader>N", group = "Neorg" },
+      { "<leader>Nt", ":Neorg journal today<CR>", desc = "Today" },
     },
   },
 }
+--{ "<leader>c", group = "ChatGPT" },
+--{ "<leader>cc", ":ChatGPT<CR>", desc = "ChatGPT" },
+--{ "<leader>ce", ":ChatGPTEditWithInstructions<CR>", desc = "ChatGPT Edit Selection with Instructions" },

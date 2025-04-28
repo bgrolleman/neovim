@@ -21,10 +21,18 @@ u - UI Enable/Disable stuff
 
 Open the keymap.lua file, and add entries there
 
+### Mini file explores
+
+SPACE f m 
+
+This allows you to use EDIT functions to create, rename, files
+Use = to commit and q to step out
+
 ### TODO
 
 - [x] Play with GIT integration
 - [ ] Figure out :terminal
+  - There seems to be a video dedicated on terminal usage in LazyVIM
 - [ ] Figure out how to disable auto complete for markdown
 
 ### Co-Pilot
