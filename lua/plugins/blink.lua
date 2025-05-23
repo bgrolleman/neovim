@@ -12,6 +12,9 @@ return {
             auto_insert = true,
           },
         },
+        menu = {
+          auto_show = false,
+        },
       },
     },
   },

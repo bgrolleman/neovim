@@ -10,3 +10,5 @@ require("config.lazy")
 -- o.tabstop = 4
 -- o.ai = true
 -- o.si = true
+--
+-- nvim_create_user_command("InsertTodayHeader", ':pu=strftime("# %a %d %b %Y")', {})
